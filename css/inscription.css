@@ -1,0 +1,265 @@
+.principale{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 5px red;
+    
+    background: #FFFFFF;
+
+}
+
+.secondaire1{
+    position: relative;
+    width: 720px;
+    height: 750px;
+    left: 0px;
+    top: 10px;
+    background: #112234;
+    border: 5px red;
+}
+.logo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 206px;
+    top: 13px;
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 467px;
+    height: 79px;
+    left: 131px;
+    top: 400px;
+
+    width: 447px;
+    height: 59px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+    .message{
+
+    width: 458px;
+    height: 58px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 478px;
+    height: 78px;
+    left: 100px;
+    top: 498px;
+    }
+
+    
+button{
+    position: absolute;
+width: 201px;
+height: 50px;
+left: 250px;
+top: 650px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 44px;
+border-radius: 50px;
+border: white;
+
+text-align: center;
+
+color: #FFFFFF;
+background-color: transparent;
+}
+
+button:hover{
+    background-color: #2382e7;
+}
+
+.container{
+    position: relative;
+    left: 60%;
+    bottom: 500px;
+    width: 550px;
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  #partieBleu{
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 600px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  
+  background: #003F62;
+  border: 1px solid #1B5A7D;
+  }
+  
+  #imageLogo{
+  position: absolute;
+  width: 600px;
+  height: 538px;
+  left: 0px;
+  top: 22px;
+  }
+  
+  #slogan{
+  
+  position: absolute;
+  width: 600px;
+  height: 172px;
+  left: 0px;
+  top: 439px;
+  
+  border-width: 4px 0px;
+  border-style: solid;
+  border-color: #112234;
+  }
+  
+  #textSlogan{
+  position: absolute;
+  width: 600px;
+  height: 88px;
+  left: 18px;
+  top: 15px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  }
+  
+  #partieBlanche{
+  position: relative;
+  width: 373px;
+  height: 49px;
+  left: 700px;
+  top: 10px;
+  }
+  
+  .number-one{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 230px;
+  bottom: 15px;
+  background: url(number-one.png);
+  transform: rotate(90deg);
+  }
+  
+  .Connexion{
+  box-sizing: content-box;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 100px;
+  padding: 10px;
+  border: 1px solid #003F62;
+  border-radius: 20px;
+  text-align: center; 
+  text-decoration: none;
+  color: #000000;
+  }
+  .Connexion:hover{
+      background-color: #5a99dd;
+      border: solid #1B5A7D;
+      color: white;
+  }
+  
+  
+  
+  .cadre{
+  position: absolute;
+  width: 550px;
+  height: 400px;
+  left: 650px;
+  top: 205px;
+  
+  border: 1px solid #003F62;
+  border-radius: 10px;
+  }
+  
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+      display: block;
+      position: relative;
+      top: 50px;
+      left: 10px;
+      width: 500px;
+      padding: 10px;
+      border: 1px solid #112234;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  
+  label{
+      position: relative;
+      top: 50px;
+      left: 20px;
+      font-weight: 600;
+      color: #003F62;
+  }
+    
+    /* Style pour le bouton */
+    input[type="submit"] {
+      color: white;
+      top: 80px;
+      padding: 10px 20px;
+      border: #112234 solid;
+      border-radius: 5px;
+      background-color: #003F62;
+      position: relative;
+      left: 350px;
+    }
+
+    #connexions:hover{
+        background-color: #2382e7;
+        font-weight: bold;
+      }
+    
+  
+    
+  
+  
