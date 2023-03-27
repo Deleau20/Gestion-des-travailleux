@@ -1,0 +1,75 @@
+body{
+position: relative;
+width: 1440px;
+border-radius: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.rech{
+position: absolute;
+width: 246px;
+height: 47px;
+left: 153px;
+top: 56px;
+background: #FCFBFF;
+border-radius: 20px;
+}
+
+nav{
+position: absolute;
+width: 150px;
+height: 982px;
+left: 0px;
+top: 0px;
+background: #112234;
+border-radius: 20px;
+}
+
+a{
+  color: white;
+}
+
+.home{
+  position: absolute;
+  width: 62px;
+  height: 64px;
+  left: 50px;
+  top: 188px;
+}
+
+.taskM{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 46px;
+top: 300px;
+}
+
+.mana{
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 46px;
+top: 400px;
+}
+
+.noti{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 46px;
+  top: 490px; 
+}
+.para{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 46px;
+  top: 590px;
+}
