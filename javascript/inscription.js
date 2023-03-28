@@ -40,3 +40,24 @@ const password = localStorage.getItem('password');
 sessionStorage.setItem('email', email);
 sessionStorage.setItem('password', password);
 
+function checkCredentials() {
+  const email = sessionStorage.getItem('email');
+  const password = sessionStorage.getItem('password');
+
+  if (email === loginEmailInput.value && password === loginPasswordInput.value) {
+    window.location.href = '../html/tableau.html';
+  } else {
+    alert('Email ou mot de passe incorrect.');
+  }
+}
+
+// Ajouter un événement d'écoute sur le clic du bouton "Se connecter"
+document.querySelector('#container .sign-in-container button').addEventListener('click', function() {
+  // Vérifier les informations d'identification
+  checkCredentials();
+  // Enregistrer l'email et le mot de passe dans le localStorage
+  localStorage.setItem('loginEmail', loginEmailInput.value);
+  localStorage.setItem('loginPassword', loginPasswordInput.value);
+});
+
+

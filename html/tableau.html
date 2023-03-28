@@ -1,24 +1,148 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/tableau.css">
-  <title>Document</title>
+	<meta charset="UTF-8">
+        <title> CSS Sidebar Menu with icons Example</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- SideBar-Menu CSS -->
+    <link rel="stylesheet" href="../css/tableau.css">
+
+	<!-- Demo CSS -->
+	<link rel="stylesheet" href="css/demo.css">
+    
 </head>
 <body>
-  <header>
-    <input type="search" value="Rechercher" class="rech">
-  </header>
-  <nav>
-    <ul>
-      <li><a href=""><i href="" ></i> Acceuil</a></li>
-      <li><a href="" class="taskM">Travailleurs</a></li>
-      <li><a href="" class="mana">Gestion</a></li>
-      <li><a href="" class="noti">Notifications</a></li>
-      <li><a href="" class="para">Paramètre</a></li>
-    </ul>
-  </nav>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="hamburger__inner">
+         <div class="one"></div>
+         <div class="two"></div>
+         <div class="three"></div>
+       </div>
+    </div>
+    <div class="menu">
+      <div class="right_menu">
+        <ul>
+          <li><i class="fas fa-user"></i>
+            <div class="profile_dd">
+               <div class="dd_item">Profile</div>
+               <div class="dd_item">Change Password</div>
+               <div class="dd_item">Logout</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    
+  <div class="main_container">
+      <div class="sidebar">
+          <div class="sidebar__inner">
+            <div class="profile">
+              <div class="profile_info">
+                 <p>Bienvenue</p>
+                 <p class="profile_name">Fred Kesse</p>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="#" class="active">
+                  <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                  <span class="title">Tableau de bord</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="icon"><i class="fas fa-users"></i></span>
+                  <span class="title">Travailleurs</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="icon"><i class="fas fa-tasks"></i></span>
+                  <span class="title">Gestion</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="icon"><i class="fas fa-chart-line"></i></span>
+                  <span class="title">Bilan</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="icon"><i class="fas fa-bell"></i></span>
+                  <span class="title">Notifications</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="icon"><i class="fas fa-cog"></i></span>
+                  <span class="title">Paramètres</span>
+                </a>
+              </li>
+            </ul> 
+          </div>
+      </div>
+
+      <div class="search_container">
+        <form action="#">
+          <input type="text" placeholder="Rechercher...">
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+
+      <div class="taches_du_jour">
+        <h2>Tâches du jour</h2>
+        <p>Voici les tâches à accomplir aujourd'hui:</p>
+        <ul>
+          <li>Tâche 1</li>
+          <li>Tâche 2</li>
+          <li>Tâche 3</li>
+        </ul>
+        <button>Voir le programme complet</button>
+      </div>
+
+      <div class="container"> 
+          <h2>Liste des admins</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Nom</th>
+                <th>Tâches</th>
+                <th>Paie</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fred</td>
+                <td>Rasssss</td>
+                <td>1000Fr</td>
+              </tr>
+              <tr>
+                <td>Noor</td>
+                <td>Tâche 2</td>
+                <td>1500Fr</td>
+              </tr>
+              <tr>
+                <td>Marie</td>
+                <td>Tâche 3</td>
+                <td>2000Fr</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  </div>
+  
+</div>
+<footer></footer>	
+<script src="../javascript/tableau.js"></script>
 </body>
+
 </html>
